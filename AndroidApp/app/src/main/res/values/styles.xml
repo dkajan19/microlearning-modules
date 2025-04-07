@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="DemoTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/priscillaDarker</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorHighlight">@color/colorPrimary</item>
+        <item name="android:colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/priscillaDarker</item>
+    </style>
+
+    <style name="ThemeOverlay.AppTheme.TextInputEditText.Outlined" parent="">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="BottomNavigation">
+        <item name="itemIconTint">@color/item_icon_color</item>
+        <item name="itemTextColor">@color/item_icon_color</item>
+    </style>
+
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/priscillaDarker</item>
+        <item name="android:navigationBarColor">@color/priscillaDarker</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:buttonTint">@color/button_color_selector</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

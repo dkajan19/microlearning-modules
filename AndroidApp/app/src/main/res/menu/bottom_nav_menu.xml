@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/courses"
+        android:icon="@drawable/book_open_variant"
+        android:title="My Courses" />
+
+    <item
+        android:id="@+id/leaders"
+        android:icon="@drawable/podium"
+        android:title="Leaders" />
+
+    <item
+        android:id="@+id/allcourses"
+        android:icon="@drawable/bookshelf"
+        android:title="Available Courses" />
+
+</menu>

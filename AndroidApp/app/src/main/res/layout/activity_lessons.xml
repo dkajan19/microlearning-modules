@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lessons_navigation_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:scrollbars="horizontal"
+        android:weightSum="1"></LinearLayout>
+
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBackClick"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/lesson_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson Name"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/prev_task_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPrevTaskClick"
+            android:text="Prev Task" />
+
+        <Button
+            android:id="@+id/next_task_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onNextTaskClick"
+            android:text="Next Task" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/task_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Content" />
+
+    <LinearLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"></LinearLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</LinearLayout>
