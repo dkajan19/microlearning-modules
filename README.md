@@ -10,6 +10,9 @@ Tento repozitár obsahuje implementáciu projektu vypracovaného ako súčasť *
 - **Android aplikácia** pre študentov na prístup ku kurzom a ich aktivitám
 - Implementácia **interaktívnych cvičení** na optimalizáciu učebného procesu
 
+### 📄 CRZP
+Diplomová práca je verejne dostupná na [tomto odkaze](https://opac.crzp.sk/?fn=detailBiblioForm&sid=11DFBA30F566A03CAEEFEE7AA9BF). Kľudne si ju prezrite.
+
 ### 🔑 Kľúčové slová
 
 `Gamifikácia` `Mikrolearning` `Jazykové kurzy` `Mobilná aplikácia` `Priscilla` `Vzdelávacia platforma` `Digitálne vzdelávanie` `Interaktívne aktivity` `Výučba cudzích jazykov`
@@ -26,8 +29,12 @@ This repository contains the implementation of a project developed as part of a 
 - **Android app** for students to access courses and activities
 - Implementation of **interactive exercises** to optimize the learning process
 
+### 📄 CRZP
+The Master's thesis is publicly accessible via [this link](https://opac.crzp.sk/?fn=detailBiblioForm&sid=11DFBA30F566A03CAEEFEE7AA9BF). Feel free to explore it.
+
 ### 🔑 Keywords
 
-`Gamification` `Microlearning` `Language Courses` `Mobile App` `Priscilla` `Educational Platform` `Digital Education` `Interactive Activities` `Foreign Language Teaching`
+`Gamification` `Microlearning` `Language Courses` `Mobile App` `Priscilla` `Educational Platform` `Digital Education` `Interactive Activities` `Foreign Language Teaching`ň
+
 
 
